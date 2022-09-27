@@ -1,0 +1,19 @@
+{
+  "name": "project-4_0",
+  "version": "0.0.4",
+  "description": "NPM start",
+  "main": "tables.js",
+  "scripts": {
+    "build": "rollup -c",
+    "watch": "rollup -c -w"
+  },
+  "author": "Ivar Anderseen",
+  "license": "MIT",
+  "dependencies": {
+    "three": "^0.144.0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^14.1.0",
+    "rollup": "^2.79.1"
+  }
+}
