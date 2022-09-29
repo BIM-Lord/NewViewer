@@ -6,6 +6,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-decoration: none;
 }
 
 /* Container holding the image and the text */
@@ -26,6 +27,7 @@
   display: flex;
   flex-direction: row;
   font-size: x-large;
+  text-decoration: none;
 
   
 }
@@ -119,7 +121,9 @@
     text-align: center;
     border-radius: 20px ;
     width: 200px;
-    border
+    color: #ddd;
+    text-decoration: none;
+    
 }
 .container{
     /*display: flex:
