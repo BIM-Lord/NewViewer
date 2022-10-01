@@ -49,13 +49,13 @@
 /* Top right text */
 .top-right {
   position: absolute;
-  top: 8px;
-  right: 35px;
+  top: 1rem;
+  right: 1rem;
   display: flexbox;
   display: flex;
-  flex-direction: row;
-  
+  flex-direction: row; 
 }
+
 /* Bottom right text */
 .bottom-right {
   position: absolute;
@@ -80,7 +80,19 @@
   }
   
   h1 {
-    font-size: 50px;
+    font-size: 150%;
+    word-break: break-all;
+  }
+  h2{
+    font-size: 130%;
+    word-break: break-all;
+  }
+  h3{
+    font-size: 110%;
+    word-break: break-all;
+  }
+  p{
+    font-size: 100%;
     word-break: break-all;
   }
   hr{
@@ -125,7 +137,6 @@
     padding: 10px;
     text-align: center;
     border-radius: 20px ;
-    width: 200px;
     color: #ddd;
     text-decoration: none;
     
@@ -143,21 +154,28 @@
     
 }
 #linkinlink{
-    padding-top: 1rem;
-    padding-left: 1rem;
-        
-}
+    padding-top: 0,5rem;
+    padding-right: 1rem;
+    display: contents;
+    width: 2rem;
+    height: 2rem;
+    }
+    #linkedinlogo{
+      width: 2rem;
+      height: 2rem;
+    }
     
 
 /* Dropdown Button */
 .dropbtn {
- background-color: #29135e;
+  background-color: #29135e;
   color: white;
   padding: 16px;
   font-size: 16px;
   border: none;
   width: 150;
   margin-left: 22px;
+  
   
 }
 
@@ -166,6 +184,7 @@
   position: relative;
   display: inline-block;
   align-self: auto;
+  display: none;
 }
 
 /* Dropdown Content (Hidden by Default) */
@@ -214,8 +233,22 @@
      .bottom-right{
       display: none;
      }
-}
 
+    #linkedinlogo{
+      width: 2rem;
+      height: 2rem;
+    }
+  }
+
+@media (max-width: 1000px){
+    .bottom-left{
+      display: none;
+    }
+    .dropdown{
+      display:contents;
+    }
+  
+}
 @media (max-width: 361px) {
 
   .top-left {
@@ -231,6 +264,16 @@
   .top-right{
     display: none;
   }
+  .bottom-left{
+    display: none;
+  }
+  
+  .button{
+    display: none;
+  }
+  .dropdown{
+    display:contents;
+  }
 
   #logo{
     min-height: 1rem;
@@ -238,10 +281,6 @@
     max-width: 1rem;
     min-width: 5rem;
 
-  }
-  #linkedinlogo{
-    width: 2rem;
-    height: 2rem;
   }
 
 }
