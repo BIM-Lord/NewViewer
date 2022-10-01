@@ -42,6 +42,10 @@
   font-size: x-large;
 
 }
+#logo{
+  width: 4rem;
+  height: 3rem;
+}
 /* Top right text */
 .top-right {
   position: absolute;
@@ -50,6 +54,7 @@
   display: flexbox;
   display: flex;
   flex-direction: row;
+  
 }
 /* Bottom right text */
 .bottom-right {
@@ -138,8 +143,8 @@
     
 }
 #linkinlink{
-    padding-top: 10px;
-    padding-left: 35px;
+    padding-top: 1rem;
+    padding-left: 1rem;
         
 }
     
@@ -203,4 +208,40 @@
 #imgimp{
   width: 100%;
   
+}
+
+@media (max-width: 1400px){
+     .bottom-right{
+      display: none;
+     }
+}
+
+@media (max-width: 361px) {
+
+  .top-left {
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    display: flexbox;
+    display: flex;
+    flex-direction: row;
+    font-size: x-large;
+    
+  }
+  .top-right{
+    display: none;
+  }
+
+  #logo{
+    min-height: 1rem;
+    max-height: 5rem;
+    max-width: 1rem;
+    min-width: 5rem;
+
+  }
+  #linkedinlogo{
+    width: 2rem;
+    height: 2rem;
+  }
+
 }
