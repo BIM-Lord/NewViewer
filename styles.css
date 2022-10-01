@@ -43,8 +43,8 @@
 
 }
 #logo{
-  width: 4rem;
-  height: 3rem;
+  width: 5rem;
+  height: 4rem;
 }
 /* Top right text */
 .top-right {
@@ -82,10 +82,12 @@
   h1 {
     font-size: 150%;
     word-break: break-all;
+    padding-left: 0.5rem;
   }
   h2{
     font-size: 130%;
     word-break: break-all;
+    padding-left: 0.5rem;
   }
   h3{
     font-size: 110%;
